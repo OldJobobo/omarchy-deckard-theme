@@ -5,7 +5,70 @@
 @define-color foreground #eef1d7;
 @define-color background #001e49;
 
-.box-wrapper {
-     border-radius: 52px; 
-    corner-shape: superellipse(22);
-  }
+window,
+#window {
+    background-color: transparent;
+    background-image: radial-gradient(circle at center,
+        rgba(0, 30, 73, 0.35) 0%,
+        rgba(0, 8, 23, 0.65) 60%,
+        rgba(0, 4, 12, 0.85) 100%);
+    backdrop-filter: blur(1.5px);
+    border: none;
+    border-width: 0;
+    border-color: transparent;
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.box-wrapper,
+window .box-wrapper,
+#box {
+    border-radius: 62px;
+    corner-shape: superellipse(4);
+    border: none;
+    border-width: 0;
+    border-color: transparent;
+    outline: none;
+    background-color: alpha(@base, 0.82);
+    background-image: radial-gradient(circle at 35% 30%, rgba(31, 177, 165, 0.10) 0%, rgba(0, 30, 73, 0) 55%),
+        radial-gradient(circle at center, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.45) 100%);
+    background-blend-mode: screen, normal;
+    box-shadow: 0 32px 64px rgba(0, 0, 0, 0.45), 0 8px 16px rgba(0, 0, 0, 0.3); /* deep drop shadow for Walker */
+}
+
+
+
+/* .search-container {
+    background: transparent;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 16px;
+} */
+
+#entry entry,
+.input {
+    background-color: alpha(@surface, 0.98);
+    color: @text;
+    border-radius: 12px;
+    padding: 12px 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+ border: none;
+}
+
+#entry {
+    background-color: transparent;
+    color: @text;
+}
+
+#entry:selected {
+    background-color: @selected-text;
+    color: @foreground;
+}
+
+/* .keybind-hints,
+.preview {
+    background-color: alpha(@background, 0.9);
+    border-radius: 12px;
+    padding: 10px;
+} */
