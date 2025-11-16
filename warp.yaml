@@ -8,9 +8,9 @@ details: darker
 terminal_colors:
   normal:
     black:   "#001e49"
-    red:     "#5f2405"
-    green:   "#417557"
-    yellow:  "#C3C375"
+    red:     "#c24e13"
+    green:   "#5a9f72"
+    yellow:  "#d2df6f"
     blue:    "#1fb1a5"
     magenta: "#4b64fd"
     cyan:    "#83f0f1"

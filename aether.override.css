@@ -10,9 +10,9 @@
 @define-color foreground #eef1d7;
 
 @define-color color0 #001e49;
-@define-color color1 #5f2405;
-@define-color color2 #417557;
-@define-color color3 #C3C375;
+@define-color color1 #c24e13;
+@define-color color2 #5a9f72;
+@define-color color3 #d2df6f;
 @define-color color4 #1fb1a5;
 @define-color color5 #4b64fd;
 @define-color color6 #83f0f1;
@@ -187,4 +187,3 @@
 * {
     border-radius: 0;
 }
-

@@ -17,10 +17,10 @@ return {
                 base07 = "#CFD597", -- Light background
 
                 -- Accent colors (base08-base0F)
-                base08 = "#5f2405", -- Variables, errors, red
+                base08 = "#c24e13", -- Variables, errors, red
                 base09 = "#fba571", -- Integers, constants, orange
-                base0A = "#C3C375", -- Classes, types, yellow
-                base0B = "#417557", -- Strings, green
+                base0A = "#d2df6f", -- Classes, types, yellow
+                base0B = "#5a9f72", -- Strings, green
                 base0C = "#83f0f1", -- Support, regex, cyan
                 base0D = "#1fb1a5", -- Functions, keywords, blue
                 base0E = "#4b64fd", -- Keywords, storage, magenta

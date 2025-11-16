@@ -23,31 +23,31 @@ theme[inactive_fg]="#3f74c0"
 theme[proc_misc]="#4b64fd"
 
 # Box outline and divider line color
-theme[cpu_box]="#417557"
-theme[mem_box]="#417557"
-theme[net_box]="#417557"
-theme[proc_box]="#417557"
+theme[cpu_box]="#5a9f72"
+theme[mem_box]="#5a9f72"
+theme[net_box]="#5a9f72"
+theme[proc_box]="#5a9f72"
 theme[div_line]="#3f74c0"
 
 # Gradient for all meters and graphs
 theme[temp_start]="#83f0f1"
 theme[temp_mid]="#1fb1a5"
-theme[temp_end]="#417557"
+theme[temp_end]="#5a9f72"
 
 
 theme[cpu_start]="#83f0f1"
 theme[cpu_mid]="#1fb1a5"
-theme[cpu_end]="#417557"
+theme[cpu_end]="#5a9f72"
 
 
 theme[free_start]="#1fb1a5"
-theme[free_mid]="#C3C375"
-theme[free_end]="#C3C375"
+theme[free_mid]="#d2df6f"
+theme[free_end]="#d2df6f"
 
 
-theme[cached_start]="#C3C375"
-theme[cached_mid]="#C3C375"
-theme[cached_end]="#C3C375"
+theme[cached_start]="#d2df6f"
+theme[cached_mid]="#d2df6f"
+theme[cached_end]="#d2df6f"
 
 
 theme[available_start]="#83f0f1"
@@ -55,16 +55,16 @@ theme[available_mid]="#83f0f1"
 theme[available_end]="#83f0f1"
 
 
-theme[used_start]="#417557"
-theme[used_mid]="#417557"
-theme[used_end]="#417557"
+theme[used_start]="#5a9f72"
+theme[used_mid]="#5a9f72"
+theme[used_end]="#5a9f72"
 
 
-theme[download_start]="#C3C375"
+theme[download_start]="#d2df6f"
 theme[download_mid]="#83f0f1"
 theme[download_end]="#1fb1a5"
 
 
-theme[upload_start]="#C3C375"
+theme[upload_start]="#d2df6f"
 theme[upload_mid]="#83f0f1"
 theme[upload_end]="#1fb1a5"
