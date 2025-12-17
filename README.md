@@ -6,6 +6,8 @@ This exists because I wanted a clean neon noir look inside Omarchy without muddy
 
 ![Deckard Dev preview](preview.png)
 
+![Deckard Dev preview 2](preview2.png)
+
 ## What’s included
 - Hyprland: soft shadows, rounded corners, gap tuning (`hyprland.conf`)
 - Hyprlock colors for ring/text (`hyprlock.conf`)
