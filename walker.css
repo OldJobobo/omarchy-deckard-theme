@@ -73,12 +73,11 @@ entry.input:nth-child(n+2) {
 entry.Input {
     background: rgba(0, 30, 73, 0.35) !important;
     background-color: rgba(0, 30, 73, 0.35) !important;
-    background-image: none !important;
     color: @text;
-    border-radius: 32px;
+    border-radius: 2px;
     padding: 12px 16px;
     box-shadow: none;
-    border: none;
+    border: 1px;
 }
 
 #entry entry text,
@@ -95,7 +94,6 @@ entry.Input text {
 entry text,
 entry selection {
     background: none !important;
-    background-color: transparent !important;
     background-image: none !important;
     color: @text;
 }
@@ -113,9 +111,23 @@ text {
     color: @foreground;
 }
 
-/* .keybind-hints,
-.preview {
-    background-color: alpha(@background, 0.9);
-    border-radius: 12px;
-    padding: 10px;
-} */
+/* Flat pill highlight for hovered/selected list rows */
+.list {
+    padding: 16px 12px 0 12px;
+}
+
+child {
+    padding: 6px 10px;
+}
+
+child .item-box {
+    border-radius: 28px;
+    background: transparent;
+    transition: background-color 120ms ease, box-shadow 120ms ease;
+}
+
+child:hover .item-box,
+child:selected .item-box {
+    background-color: rgba(31, 177, 165, 0.18);
+    box-shadow: 0 0 12px rgba(31, 177, 165, 0.7), 0 0 24px rgba(31, 177, 165, 0.4), 0 4px 8px rgba(0, 0, 0, 0.3);
+}
