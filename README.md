@@ -2,7 +2,7 @@
 
 Blade Runner-inspired blue/teal theme tuned for a Hyprland Wayland setup and common CLI tools. Includes matching wallpapers (`backgrounds/`) and previews (`preview.png`, `preview2.png`).
 
-This exists because I wanted a clean neon noir look inside Omarchy without muddy contrast. The palette keeps text sharp against a deep navy base, with teal and violet highlights to make chrome and prompts glow without eye strain.
+I started this theme because I wanted to try making a Blade Runner inspired setup, then kept pushing Omarchy theming—seeing how different I could make things look while leaning into retro-futurism and still keeping the UI sharp and usable for long sessions.
 
 ![Deckard preview](preview.png)
 
