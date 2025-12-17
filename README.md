@@ -1,12 +1,12 @@
-# Deckard Dev (Omarchy)
+# Omarchy Deckard Theme
 
 Blade Runner-inspired blue/teal theme tuned for a Hyprland Wayland setup and common CLI tools. Includes matching wallpapers (`backgrounds/`) and previews (`preview.png`, `preview2.png`).
 
 This exists because I wanted a clean neon noir look inside Omarchy without muddy contrast. The palette keeps text sharp against a deep navy base, with teal and violet highlights to make chrome and prompts glow without eye strain.
 
-![Deckard Dev preview](preview.png)
+![Deckard preview](preview.png)
 
-![Deckard Dev preview 2](preview2.png)
+![Deckard preview 2](preview2.png)
 
 ## What’s included
 - Hyprland: soft shadows, rounded corners, gap tuning (`hyprland.conf`)
@@ -22,7 +22,7 @@ This exists because I wanted a clean neon noir look inside Omarchy without muddy
 Run the Omarchy installer to place everything where it belongs:
 
 ```bash
-omarchy-theme-install https://github.com/OldJobobo/omarchy-deckard-dev
+omarchy-theme-install https://github.com/OldJobobo/omarchy-deckard-theme
 ```
 
 Wallpapers live in `backgrounds/`; `preview.png` and `preview2.png` show the intended look.
