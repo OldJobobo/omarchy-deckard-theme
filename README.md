@@ -1,43 +1,44 @@
-# Deckard Dev (Omarchy Theme)
+# Deckard Dev (Omarchy)
 
-Blue/teal neon palette inspired by Deckard's rainy cityscapes, tuned for readable code and glowing UI chrome across Wayland tools.
+Blade Runner-inspired blue/teal theme tuned for a Hyprland Wayland setup and common CLI tools. Includes matching wallpapers (`backgrounds/`) and previews (`preview.png`, `preview2.png`).
 
-## Palette
+This exists because I wanted a clean neon noir look inside Omarchy without muddy contrast. The palette keeps text sharp against a deep navy base, with teal and violet highlights to make chrome and prompts glow without eye strain.
 
-| Role | Hex |
-| --- | --- |
-| Background | `#001e49` |
-| Foreground | `#eef1d7` |
-| Accent (teal) | `#1fb1a5` |
-| Accent (violet) | `#4b64fd` |
-| Accent (chartreuse) | `#d2df6f` |
-| Accent (amber) | `#c24e13` |
-| Highlight | `#83f0f1` |
-
-Terminal palettes in `alacritty.toml`, `ghostty.conf`, `kitty.conf`, and `warp.yaml` mirror the values above.
+![Deckard Dev preview](preview.png)
 
 ## What’s included
-
-- Previews: `preview.png`, `preview2.png`
+- Hyprland: soft shadows, rounded corners, gap tuning (`hyprland.conf`)
+- Hyprlock colors for ring/text (`hyprlock.conf`)
+- Waybar/menus: Waybar, Wofi, Walker, SwayOSD, Mako styles aligned to the palette (`waybar.css`, `wofi.css`, `walker.css`, `swayosd.css`, `mako.ini`)
+- Terminals: Alacritty (`alacritty.toml`), Kitty (`kitty.conf`), Ghostty (`ghostty.conf`), Warp (`warp.yaml`)
+- Apps/tools: Aether/GTK overrides (`aether.override.css`), Chromium theme tint (`chromium.theme`), btop theme (`btop.theme`)
+- Neovim: Aether colorscheme snippet for LazyVim (`neovim.lua`)
+- Icons: pointer to Yaru-blue (`icons.theme`)
 - Wallpapers: `backgrounds/deckard.png`, `deckard-owl.png`, `elevation-check.png`, `environ-center.png`, `tyrell-sanctum.png`, `voight-kampff.png`
-- GTK/Aether: `aether.override.css`
-- Icons: `icons.theme` (Yaru-blue)
-- Wayland stack: `hyprland.conf`, `hyprlock.conf`, `waybar.css`, `wofi.css`, `walker.css`, `swayosd.css`, `mako.ini`
-- Terminals: `alacritty.toml`, `ghostty.conf`, `kitty.conf`, `warp.yaml`
-- Extras: `btop.theme`, `chromium.theme`, `neovim.lua` (Aether colorscheme setup)
 
-## Using with Omarchy
+## Quick start
+Run the Omarchy installer to place everything where it belongs:
 
-1) Place the folder at `~/.config/omarchy/themes/deckard-dev` (or clone it there).  
-2) In Omarchy, select the `deckard-dev` theme to sync configs into your setup.
+```bash
+omarchy-theme-install https://github.com/OldJobobo/omarchy-deckard-dev
+```
 
-## Manual use (without Omarchy)
+Wallpapers live in `backgrounds/`; `preview.png` and `preview2.png` show the intended look.
 
-- Import the theme files from this directory in your app configs rather than copying them. Examples:
-  - Alacritty: `import = ["~/.config/omarchy/themes/deckard-dev/alacritty.toml"]`
-  - Kitty: `include ~/.config/omarchy/themes/deckard-dev/kitty.conf`
-  - Ghostty: symlink `ghostty.conf` into `~/.config/ghostty/`
-  - Warp: copy or import `warp.yaml` under `~/.warp/themes/`
-- GTK: drop `aether.override.css` into your Aether override location (`~/.config/aether/theme.override.css`) or adjust the palette there.
-- Wayland/UX: point Hyprland, Waybar, Wofi, Walker, SwayOSD, and Mako to the matching files here or merge the values into your existing configs.
-- Wallpapers live in `backgrounds/`; set your compositor to one of them to complete the look.
+## Background previews
+<table>
+  <tr>
+    <td align="center" valign="top"><img src="backgrounds/deckard.png" alt="Deckard" width="180"><br><sub>deckard.png</sub></td>
+    <td align="center" valign="top"><img src="backgrounds/deckard-owl.png" alt="Deckard Owl" width="180"><br><sub>deckard-owl.png</sub></td>
+    <td align="center" valign="top"><img src="backgrounds/elevation-check.png" alt="Elevation Check" width="180"><br><sub>elevation-check.png</sub></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><img src="backgrounds/environ-center.png" alt="Environ Center" width="180"><br><sub>environ-center.png</sub></td>
+    <td align="center" valign="top"><img src="backgrounds/tyrell-sanctum.png" alt="Tyrell Sanctum" width="180"><br><sub>tyrell-sanctum.png</sub></td>
+    <td align="center" valign="top"><img src="backgrounds/voight-kampff.png" alt="Voight Kampff" width="180"><br><sub>voight-kampff.png</sub></td>
+  </tr>
+</table>
+
+## Notes
+- Hyprland uses deep shadows and moderate gaps; adjust `gaps_out`/`gaps_in` in `hyprland.conf` if you prefer tighter layouts.
+- Palette anchors: background `#001e49`, foreground `#eef1d7`, teal accent `#1fb1a5`, violet accent `#4b64fd`, highlight cyan `#83f0f1`. All configs reuse these for consistency.
