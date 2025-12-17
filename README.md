@@ -1,6 +1,6 @@
 # Omarchy Deckard Theme
 
-Blade Runner-inspired blue/teal theme tuned for a Hyprland Wayland setup and common CLI tools. Includes matching wallpapers (`backgrounds/`) and previews (`preview.png`, `preview2.png`).
+Blade Runner-inspired blue/teal theme tuned for a Hyprland Wayland setup and common CLI tools. 
 
 I started this theme because I wanted to try making a Blade Runner inspired setup, then kept pushing Omarchy theming—seeing how different I could make things look while leaning into retro-futurism and still keeping the UI sharp and usable for long sessions.
 
